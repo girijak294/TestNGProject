@@ -1,0 +1,11 @@
+<suite name="ParallelTests" parallel="methods" thread-count="4">
+	<test name="TestSuite">
+		<classes>
+			<class name="test.calculator.CalculatorTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="test.calculator.CustomListener" />
+	</listeners>
+
+</suite>
